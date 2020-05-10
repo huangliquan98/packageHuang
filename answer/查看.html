@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>查看</title>
+    	<link rel="stylesheet" type="text/css" href="bootstrapPackage/bootstrap-4.4.1-dist/css/bootstrap.min.css"/>
+    	<style type="text/css">
+    		#logo img{
+				/*width: 20%;*/
+				margin-top: 30px;
+			}
+			
+			/*第一行（学生管理系统那一行）*/
+			#top
+			{
+			    height: 40px;
+			    position: relative;
+			}
+			/*学生管理系统那一行的黄线*/
+			.headerLine
+			{
+			    width: 280px;
+			    display: inline;
+			    color: #c3a080;
+			    font-size: 25px;
+			    top: 0px;
+			    left: 0px;
+			    position: absolute;
+			}
+			.headerLine1{
+				width: 280px;
+			    display: inline;
+			    color: #c3a080;
+			    font-size: 25px;
+			    left: 740px;
+			    top: 0px;
+			    position: absolute;
+			}
+			/*学生管理系统那几个字*/
+			#header
+			{
+			    width: 380px;
+			    display: inline;
+			    color: #9ea09e;
+			    font-size: 20px;
+			    padding-left: 100px;
+			    padding-right: 100px;
+			    position: absolute;
+			    left: 412px;
+			    top: 0px; 
+			    line-height: 40px;   
+			}	
+			.container{
+				background-color: darkseagreen;
+			}		
+    	</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div id="logo">
+					<img src="img/LOGO2.png" alt="四川旅游学院">
+				</div>   
+			</div>
+			<div class="row">
+				<div id="top">
+			        <div class="headerLine">————————————————</div>
+			        <div id="header">查看管理</div>
+			        <div class="headerLine1">————————————————</div>
+			    </div>
+			</div>
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-3">
+					<h5><strong>学生姓名：</strong>张三</h5>					
+				</div>
+				<div class="col-md-2"></div>
+				<div class="col-md-3">
+					<h5><strong>提问时间：</strong>2020-5-26</h5>	
+				</div>
+			</div>
+			<div class="row">				
+				<div class="input-group">
+				  <div class="col-md-2"></div>	
+				  <div class="input-group-prepend">
+				    <span class="input-group-text"><strong>问题1：</strong></span>
+				  </div>
+				  <textarea class="form-control col-md-7" aria-label="With textarea" >怎样才能将自己的能力快速提升？</textarea>
+				</div>
+			</div>
+			
+			<div class="row mt-2">				
+				<div class="input-group">
+				  <div class="col-md-2"></div>	
+				  <div class="input-group-prepend">
+				    <span class="input-group-text"><strong>回复1：</strong></span>
+				  </div>
+				  <textarea class="form-control col-md-7" aria-label="With textarea" >图文模式</textarea>
+				  <div class="col-md-2">
+				  	<div class="row"><h6>回复用户名：</h6></div>
+				  	<div class="row"><h6>回复时间：</h6></div>
+				  	<div class="row"><h6>2020-5-26 09:30</h6></div>
+				  	<div class="row">
+				  		<div class="col-md-6">
+				  			<button class="btn btn-success btn-sm">修改</button>
+				  		</div>
+				  		<div class="col-md-6">
+				  			<button class="btn btn-danger btn-sm">删除</button>
+				  		</div>
+				  	</div>
+				  </div>
+				</div>
+			</div>
+			<div class="row mt-2">				
+				<div class="input-group">
+				  <div class="col-md-2"></div>	
+				  <div class="input-group-prepend">
+				    <span class="input-group-text"><strong>回复2：</strong></span>
+				  </div>
+				  <textarea class="form-control col-md-7" aria-label="With textarea" >图文模式</textarea>
+				  <div class="col-md-2">
+				  	<div class="row"><h6>回复用户名：</h6></div>
+				  	<div class="row"><h6>回复时间：</h6></div>
+				  	<div class="row"><h6>2020-5-26 09:30</h6></div>
+				  	<div class="row">
+				  		<div class="col-md-6">
+				  			<button class="btn btn-success btn-sm">修改</button>
+				  		</div>
+				  		<div class="col-md-6">
+				  			<button class="btn btn-danger btn-sm">删除</button>
+				  		</div>
+				  	</div>
+				  </div>
+				</div>
+			</div>
+			<div class="row mt-2 mb-3">				
+				<div class="input-group">
+				  <div class="col-md-2"></div>	
+				  <div class="input-group-prepend">
+				    <span class="input-group-text"><strong>回复+：</strong></span>
+				  </div>
+				  <textarea class="form-control col-md-7" aria-label="With textarea" >图文模式</textarea>
+				  <div class="col-md-1 mt-2">
+				  	<button class="btn btn-outline-success">添加</button>
+				  </div>
+				</div>
+			</div>
+			<div class="row"></div>
+			
+		</div>
+		
+		
+		<script src="bootstrapPackage/bootstrap-4.4.1-dist/js/jquery-3.4.1.min.js"></script>
+	    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	    <script src="bootstrapPackage/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+	</body>
+</html>

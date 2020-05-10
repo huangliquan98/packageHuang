@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />		
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>学生答疑管理</title>
+    	<link rel="stylesheet" type="text/css" href="bootstrapPackage/bootstrap-4.4.1-dist/css/bootstrap.min.css"/>
+    	<style type="text/css">
+    		#logo img{
+				/*width: 20%;*/
+				margin-top: 30px;
+			}
+			
+			/*第一行（学生管理系统那一行）*/
+			#top
+			{
+			    height: 40px;
+			    position: relative;
+			}
+			/*学生管理系统那一行的黄线*/
+			.headerLine
+			{
+			    width: 280px;
+			    display: inline;
+			    color: #c3a080;
+			    font-size: 25px;
+			    top: 0px;
+			    left: 0px;
+			    position: absolute;
+			}
+			.headerLine1{
+				width: 280px;
+			    display: inline;
+			    color: #c3a080;
+			    font-size: 25px;
+			    left: 740px;
+			    top: 0px;
+			    position: absolute;
+			}
+			/*学生管理系统那几个字*/
+			#header
+			{
+			    width: 380px;
+			    display: inline;
+			    color: #9ea09e;
+			    font-size: 20px;
+			    padding-left: 100px;
+			    padding-right: 100px;
+			    position: absolute;
+			    left: 412px;
+			    top: 0px; 
+			    line-height: 40px;   
+			}
+			.container>.row{
+				/*margin-top: 10px;*/
+			}
+			.container{
+				background-color: darkseagreen;
+			}
+			.container>div:nth-child(3){
+				background-color: #ccc;
+				margin-top: 10px;
+			}
+			.container>div:nth-child(4){
+				background-color: white;
+			}
+			.container>div:nth-child(5){
+				background-color: white;
+			}
+			.container>div:nth-child(6){
+				background-color: white;
+				margin-bottom: 80px;
+			}			
+    	</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div id="logo">
+					<img src="img/LOGO2.png" alt="四川旅游学院">
+				</div>   
+			</div>
+			<div class="row">
+				<div id="top">
+			        <div class="headerLine">————————————————</div>
+			        <div id="header">学生答疑管理</div>
+			        <div class="headerLine1">————————————————</div>
+			    </div>
+			</div>
+			<div class="row">
+				<div class="col-md-1">
+					<label>全选</label>
+					<label><input type="checkbox"></label>
+				</div>				
+				<div class="col-md-1"><h4><strong>序号</strong><h4></div>
+				<div class="col-md-2"><h4><strong>问题ID</strong><h4></div>
+				<div class="col-md-2"><h4><strong>回复用户名</strong><h4></div>
+				<div class="col-md-2"><h4><strong>回复内容</strong><h4></div>
+				<div class="col-md-2"><h4><strong>记录时间</strong><h4></div>					
+			</div>
+			
+			<div class="row">
+				<div class="col-md-1">
+					<label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+					<label><input type="checkbox"></label>
+				</div>				
+				<div class="col-md-1"><h5>001</h5></div>
+				<div class="col-md-2"><h5>909</h5></div>
+				<div class="col-md-2"><h5>yellow</h5></div>
+				<div class="col-md-2"><h5>想要快速提升自己需要不断</h5></div>
+				<div class="col-md-2"><h5>2020/5/8</h5></div>
+				<div class="col-md-1"><a href="javascript:;" class="btn btn-success">查看</a></div>
+				<div class="col-md-1"><a href="javascript:;" class="btn btn-danger">删除</a></div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-1">
+					<label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+					<label><input type="checkbox"></label>
+				</div>				
+				<div class="col-md-1"><h5>001</h5></div>
+				<div class="col-md-2"><h5>909</h5></div>
+				<div class="col-md-2"><h5>yellow</h5></div>
+				<div class="col-md-2"><h5>想要快速提升自己需要不断</h5></div>
+				<div class="col-md-2"><h5>2020/5/8</h5></div>
+				<div class="col-md-1"><a href="javascript:;" class="btn btn-success">查看</a></div>
+				<div class="col-md-1"><a href="javascript:;" class="btn btn-danger">删除</a></div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-1">
+					<label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+					<label><input type="checkbox"></label>
+				</div>				
+				<div class="col-md-1"><h5>001</h5></div>
+				<div class="col-md-2"><h5>909</h5></div>
+				<div class="col-md-2"><h5>yellow</h5></div>
+				<div class="col-md-2"><h5>想要快速提升自己需要不断</h5></div>
+				<div class="col-md-2"><h5>2020/5/8</h5></div>
+				<div class="col-md-1"><a href="javascript:;" class="btn btn-success">查看</a></div>
+				<div class="col-md-1"><a href="javascript:;" class="btn btn-danger">删除</a></div>
+			</div>
+			<div class="row">
+				<div class="col-md-3"><p>共有<code>18900</code>条回复，当前第<code>3</code>页</p></div>
+				<div class="col-md-6"></div>
+				<div class="col-md-3">
+					<div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
+					  <div class="btn-group" role="group" aria-label="First group">
+					  	<button type="button" class="btn btn-info">
+							  		<svg class="bi bi-chevron-left" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+		  <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" clip-rule="evenodd"/>
+		</svg>
+					  	</button>
+					    <button type="button" class="btn btn-secondary">1</button>
+					    <button type="button" class="btn btn-secondary">2</button>
+					    <button type="button" class="btn btn-secondary">3</button>
+					    <button type="button" class="btn btn-secondary">..</button>
+					    <button type="button" class="btn btn-info">
+					  		<svg class="bi bi-chevron-right" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" clip-rule="evenodd"/>
+</svg>
+					  	</button>
+					  </div>
+				</div>
+			</div>
+		</div>
+		
+		<script src="bootstrapPackage/bootstrap-4.4.1-dist/js/jquery-3.4.1.min.js"></script>
+	    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	    <script src="bootstrapPackage/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+	</body>
+</html>
